@@ -12,3 +12,65 @@
 
 - Selected box can be moved using arrow keys or by dragging with the mouse.
 
+- There should be a selection to allow box overlap.
+
+- There should be a possibility to add different size boxes.
+
+- When a new pallet size is defined, boxes stay in the same location.
+
+- Green line - overhang line.
+
+- Red dot - base start point.
+
+- User should get a warning if layers contains no boxes.
+
+- If one box overlaps another, there should be a way to see the coordinate of the box below.
+
+- Boxes should snap to each other if possible. And to the pallet sides.
+
+- Everything is located according to the center point.
+
+- User should have the ability to select the order of boxes.
+
+- User should be warned if box order not defined.
+
+- Should have the ability to generate alternating layers from two layers.
+
+- Should show total height, depending on the highest sitting box.
+
+- Should be able to display to layers which are close, with transparency. So that you could check, that the boxes have sufficient support underneath.
+
+- Should have an info dialog, which would show all needed detailed info.
+
+- Should have a setting to set max weight and if the box placed exceeds the max weight of pallet + boxes, then it should alert the user.
+
+- Info box should show number of boxes on each layer.
+
+- If there are several types of boxes, it should indicate how many of each type there are.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//////////////////////////
+VERSION 2
+//////////////////////////
+
+- If the layer is not filled enough, user should get a warning.
+
+- Side views??
