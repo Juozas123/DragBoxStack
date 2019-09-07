@@ -1,0 +1,14 @@
+- Operator defines the overhang/underhang and the software automatically limits the dragging of the boxes to stay within limits.
+
+- Overhang and underhang must leave enough space to have a box created.
+
+- If you change your box and pallet the solution is reset.
+
+- You should have the ability to copy boxes from one layer to another.
+
+- You should have the ability to select a box and delete it.
+
+- When you select a box, it indicates the selection. Other boxes get deselected.
+
+- Selected box can be moved using arrow keys or by dragging with the mouse.
+
