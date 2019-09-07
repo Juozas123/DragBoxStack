@@ -1,0 +1,31 @@
+﻿<Window x:Class="DragBoxStack.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DragBoxStack"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800">
+    <Grid Name="MyGrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="6*"/>
+            <ColumnDefinition Width="776*"/>
+            <ColumnDefinition Width="6*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100*" Name="areaButtons"/>
+            <RowDefinition Height="369*" Name="areaDrawing"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+
+        <Button Grid.Row="0" Width="100" Height="30" Margin="1.6,10,680,80" Name="btnAddPallet" Click="btnAddPallet_Click" Grid.Column="1">Add Pallet</Button>
+        <Button Grid.Row="0" Width="100" Height="30" Margin="106.6,10,575,80" x:Name="btnDraw" Click="btnDrawPallet_Click" Content="Draw Pallet" Grid.Column="1"/>
+        <Button Grid.Row="0" Width="100" Height="30" Margin="671.6,10,10,80" x:Name="btnClearCanvas" Click="btnClearCanvas_Click" Content="Clear Canvas" Grid.Column="1"/>
+
+        <Grid Name="DrawingArea" Grid.Row="1" Grid.Column="1" Margin="0,0,-0.4,0.4">
+            <Border Background="White" BorderBrush="Black" BorderThickness="1" Margin="0,0,0,0.6"/>
+
+        </Grid>
+        
+    </Grid>
+</Window>

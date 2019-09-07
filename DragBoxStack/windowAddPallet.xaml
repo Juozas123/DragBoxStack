@@ -1,0 +1,31 @@
+﻿<Window x:Class="DragBoxStack.windowAddPallet"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DragBoxStack"
+        mc:Ignorable="d"
+        Title="Add Pallet" Height="234.707" Width="194.145" ShowInTaskbar="False" WindowStyle="ToolWindow" ResizeMode="NoResize" WindowStartupLocation="CenterOwner">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="33*"/>
+            <RowDefinition Height="164*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="72"/>
+            <ColumnDefinition Width="68"/>
+            <ColumnDefinition Width="208"/>
+        </Grid.ColumnDefinitions>
+        <Label HorizontalContentAlignment="Right" Margin="10,4.4,6,130.4" Grid.Row="1" >Width:</Label>
+        <TextBox x:Name="tbPltWidth" Grid.Column="1" Margin="0,4.4,0,137.4" Grid.Row="1"/>
+        <Label HorizontalContentAlignment="Right" Margin="11,38.4,5,96.4" Content="Length:" Grid.Row="1"/>
+        <TextBox x:Name="tbPltLenght" Margin="0,38.4,0,103.4" Grid.Column="1" Grid.Row="1"/>
+        <Label HorizontalContentAlignment="Right" Margin="11,74.4,5,60.4" Content="Height:" Grid.Row="1"/>
+        <TextBox x:Name="tbPltHeight" Margin="0,74.4,0,67.4" Grid.Column="1" Grid.Row="1"/>
+
+        <Label HorizontalContentAlignment="Center" Content="Dimensions" FontWeight="Bold" Margin="43,9,191,0.6" Grid.ColumnSpan="3" />
+
+        <Button Grid.Row="1" Grid.ColumnSpan="3" Margin="57,113.4,191,25.4" Width="100" Height="30" Name="btnAdd" Click="BtnAdd_Click">Add</Button>
+
+    </Grid>
+</Window>
