@@ -48,6 +48,10 @@
 
 - If there are several types of boxes, it should indicate how many of each type there are.
 
+- If user tries to save the solution, it should alert him if some limit is exceed. But it should not stop the user from having the ability to save the file.
+
+- If user enters box size, bigger than the pallet size, he should be warned. Or maybe there should be some data which would be called box area size, which would include pallet size and the underhang/overhang definitions.
+
 
 
 
